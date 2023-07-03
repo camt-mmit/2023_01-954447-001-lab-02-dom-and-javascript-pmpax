@@ -11,6 +11,7 @@
     font-family: var(--app-font);
     font-size: var(--app-font-size);
     text-align: center;
+    background-color: aqua;
 
 
 }
@@ -108,9 +109,22 @@ input[type='number'],
 }
 .app-main-container{
     margin: 5% 30%;
+    border: 5px inset #59c0b2 ;
+    padding: 5ch;
+    border-radius: 15px;
+    background-color: cadetblue;
 }
 .app-haeder-section{
     border-bottom: 7px inset #ffff00 ;
     margin-bottom: 3ch;
     padding-bottom: 3ch;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+.app-cmd-add-section{
+    margin-top: 5ch;
+   
 }
